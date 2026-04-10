@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharani T - AI Engineer Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        header { background: #2c3e50; color: white; padding: 2rem 0; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        nav { background: #34495e; padding: 1rem 0; position: sticky; top: 0; }
+        nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav li { margin: 0 15px; }
+        nav a { color: white; text-decoration: none; padding: 5px 10px; }
+        nav a:hover { background: #2c3e50; border-radius: 3px; }
+        section { padding: 3rem 0; }
+        section:nth-child(even) { background: #f4f4f4; }
+        h2 { color: #2c3e50; margin-bottom: 1.5rem; font-size: 2rem; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        .contact-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .contact-item { background: white; padding: 1rem; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .skill-card { background: white; padding: 1.5rem; border-radius: 5px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .project-card { background: white; padding: 1.5rem; margin: 1rem 0; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .project-card h3 { color: #3498db; margin-bottom: 0.5rem; }
+        .btn { display: inline-block; background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        .btn:hover { background: #2980b9; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; }
+        @media (max-width: 768px) { nav ul { flex-direction: column; align-items: center; } nav li { margin: 5px 0; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DHARANI T</h1>
+            <p>AI Engineer | Machine Learning Enthusiast</p>
+            <p>📍 Erode, India</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Creative thinker with a passion for Artificial Intelligence and Machine Learning. Currently pursuing B.Tech in AI&DS at Anna University Regional Campus. Experienced in Python programming, data modeling, and problem-solving. Looking to bring fresh ideas to forward-thinking teams.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Python Programming</h3>
+                    <p>Proficient in Python for AI/ML applications</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+                    <p>Building predictive models and algorithms</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Modeling</h3>
+                    <p>Structuring and analyzing complex datasets</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Problem-Solving</h3>
+                    <p>Analytical thinking and solution design</p>
+                </div>
+            </div>
+            <h3 style="margin-top: 2rem;">Languages</h3>
+            <p>English (Fluent) | Tamil (Native) | Japanese (Basic)</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="project-card">
+                <h3>B.Tech in AI & Data Science</h3>
+                <p><strong>Anna University Regional Campus, Coimbatore</strong></p>
+                <p>2025 - 2028</p>
+            </div>
+            <div class="project-card">
+                <h3>Diploma in Computer Science</h3>
+                <p><strong>KSR Educational Institution, Tiruchengode</strong></p>
+                <p>2023 - 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Machine Learning Model</h3>
+                <p><strong>Technologies:</strong> Python, Scikit-learn, Pandas</p>
+                <p><strong>Description:</strong> [Add your project description - e.g., "Developed a predictive model for housing prices using regression algorithms"]</p>
+                <p><strong>Key Features:</strong> Data preprocessing, model training, accuracy optimization</p>
+                <a href="#" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Data Visualization Dashboard</h3>
+                <p><strong>Technologies:</strong> Python, Matplotlib, Plotly</p>
+                <p><strong>Description:</strong> [Add description - e.g., "Created interactive dashboards for sales data analysis"]</p>
+                <a href="#" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Blockchain Application</h3>
+                <p><strong>Technologies:</strong> Blockchain, Smart Contracts</p>
+                <p><strong>Description:</strong> [From your Green Leaf Solution internship]</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <p style="margin-top: 2rem; text-align: center;"><em>Add more projects as you complete them!</em></p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="project-card">
+                <h3>Blockchain Technology Internship</h3>
+                <p><strong>Green Leaf Solution</strong></p>
+                <p>Completed internship program on Blockchain technology</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or opportunities!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📧 Email</h3>
+                    <p>dharanikabil156@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📱 Phone</h3>
+                    <p>+91 6374368703</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 Location</h3>
+                    <p>Erode, India</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🔗 LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/dharanikabil-t">View Profile</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Dharani T. All rights reserved.</p>
+            <p>AI Engineer Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
